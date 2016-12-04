@@ -1,0 +1,4 @@
+#!/bin/bash
+#trims whitespace from input
+#usage: cat file | trim
+awk '{$1=$1};1'

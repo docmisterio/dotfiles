@@ -1,0 +1,22 @@
+export PS1="\W$ "
+
+alias ll='ls -al'
+alias gst='git status'
+alias gad='git add . -A; git status'
+alias gcm='git commit -m'
+alias gpo='git push origin HEAD'
+
+alias textw='open -b com.barebones.textwrangler'
+
+alias postgresql-command-line='psql -h localhost postgres'
+
+export ANDROID_HOME=/Users/josephhainline/android-sdk-macosx/
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+### Added by the Heroku Toolbelt
+export PATH=$PATH:/usr/local/heroku/bin:/Users/josephhainline/android-sdk-macosx/tools:/Users/josephhainline/android-sdk-macosx/platform-tools
+
+# Added for AWS eb command line tool
+export PATH=$PATH:/Users/josephhainline/AWS-ElasticBeanstalk-CLI-2.5.1/eb/macosx/python2.7
+
