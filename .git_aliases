@@ -2,6 +2,7 @@ export PS1="\W$ "
 
 alias ll='ls -al'
 alias gst='git status'
+alias gdd='git diff --staged'
 alias gad='git add . -A; git status'
 alias gcm='git commit -m'
 alias gpo='git push origin HEAD'
